@@ -25,7 +25,7 @@ const Hero = () => {
     return (
         <div className="relative bg-black min-h-[700px] bg-cover bg-center rounded-br-[30%]">
           {/* Video Background */}
-          <video className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]" autoPlay>
+          <video className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]" autoPlay muted>
             <source src={compVidHero} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
