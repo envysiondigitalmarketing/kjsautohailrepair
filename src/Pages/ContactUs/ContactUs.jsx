@@ -7,7 +7,7 @@ const ContactUs = () => {
         <>
             <NavBar />
             <div className=" pb-10  flex justify-center items-center flex-col">
-                <div className="bg-contact_bg min-h-[400px] w-full flex justify-center items-center bg-center bg-fixed">
+                <div className="bg-contact_bg min-h-[400px] w-full flex justify-center items-center bg-cover bg-center bg-fixed">
                 <h1 className="text-center text-4xl text-white">Contact Us</h1>
             </div>
                 <div className="w-full md:w-11/12  md:flex-col mx-auto  flex justify-center min-h-[400px] my-6 mt-20 max-w-[1700px] rounded-lg">
