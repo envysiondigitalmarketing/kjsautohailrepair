@@ -26,6 +26,7 @@ const Hero = () => {
           {/* Video Background */}
           <video className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]" autoPlay>
             <source src="src/assets/comp_vid_hero.mp4" type="video/mp4" />
+            <source src="../../assets/comp_vid_hero.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
     
