@@ -1,6 +1,7 @@
 // import { Link } from "react-router-dom";
 import NavBar from "../../Components/NavBar/NavBar";
 import compVidHero from '../../assets/comp_vid_hero.mp4';
+import heroHome from '../../assets/hero_home.jpg';
 
 const Hero = () => {
     // return (
@@ -27,6 +28,7 @@ const Hero = () => {
           {/* Video Background */}
           <video className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]" autoPlay muted>
             <source src={compVidHero} type="video/mp4" />
+            <img src={heroHome} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
     
