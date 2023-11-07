@@ -40,7 +40,7 @@ const ContactUs = () => {
                                 <IoLocationSharp className="text-xl sm:text-base text-white" />
                             </span>
                             <span className="font-semibold text-white">Address</span>
-                            <span className="text-white"> 914 AE Seattle Washington</span>
+                            <span className="text-white">1670 Paonia St Suite 120, 80915</span>
 
                         </div>
                         <div className="flex  items-center gap-x-2 w-full flex-wrap">
@@ -49,7 +49,7 @@ const ContactUs = () => {
                                 <BsTelephoneFill className="text-xl sm:text-base text-white" />
                             </span>
                             <span className="font-semibold text-white">Phone Number</span>
-                            <span className="text-white">+1 (206) 220 1109</span>
+                            <span className="text-white">(214) 766-6176</span>
                         </div>
                         <div className="flex  items-center gap-x-2 w-full flex-wrap">
                             <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
