@@ -2,8 +2,14 @@
 import NavBar from "../../Components/NavBar/NavBar";
 import compVidHero from '../../assets/comp_vid_hero.mp4';
 import heroHome from '../../assets/hero_home.jpg';
+import { useEffect, useRef } from 'react';
 
 const Hero = () => {
+    const videoRef = useRef();
+
+    useEffect(() => {
+      videoRef.current.play();
+    }, []);
     // return (
     //     <>
     //         <div className="relative  bg-hero_bg min-h-[700px] bg-cover rounded-br-[30%] bg-center">
@@ -26,7 +32,7 @@ const Hero = () => {
     return (
         <div className="relative bg-black min-h-[700px] bg-cover bg-center rounded-br-[30%]">
           {/* Video Background */}
-          <video className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]" autoPlay muted>
+          <video ref={videoRef} className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]" autoPlay muted>
             <source src={compVidHero} type="video/mp4" />
             <img src={heroHome} type="video/mp4" />
             Your browser does not support the video tag.
