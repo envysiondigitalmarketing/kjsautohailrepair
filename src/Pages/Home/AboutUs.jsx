@@ -1,7 +1,7 @@
 // import Dots from "../../assets/Dots.png"
 // import arrow from "../../assets/arrow.png"
 // import car from "../../assets/car.png"
-import AboutImg from "../../assets/about.jpg"
+import AboutImg from "../../assets/about.webp"
 const AboutUs = () => {
     return (
         <div className=" py-6 flex flex-col mt-9 relative">

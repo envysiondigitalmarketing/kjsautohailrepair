@@ -15,9 +15,9 @@ export default {
     extend: {
       backgroundImage: {
         hero_bg:
-          "linear-gradient(120deg,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url('./assets/hero_home.jpg')",
+          "linear-gradient(120deg,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url('./assets/hero_home.webp')",
         contact_bg:
-          " linear-gradient(120deg,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url('./assets/contact.jpg')",
+          " linear-gradient(120deg,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url('./assets/contact.webp')",
         service_bg:
           " linear-gradient(120deg,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url('./assets/service.jpg')",
       },

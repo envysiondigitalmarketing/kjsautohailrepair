@@ -1,5 +1,5 @@
 import { BsFacebook } from "react-icons/bs"
-import Logo from "../../assets/FooterLogo.png"
+import Logo from "../../assets/FooterLogo.webp"
 import { Link } from "react-router-dom"
 import { IoLocationSharp } from "react-icons/io5"
 import { BsTelephoneFill } from "react-icons/bs"

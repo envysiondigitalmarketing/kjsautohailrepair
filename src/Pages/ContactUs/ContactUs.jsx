@@ -62,7 +62,7 @@ const ContactUs = () => {
 
                     </div>
                     {/* <div className="w-3/6 flex justify-center md:w-full">
-                        <img src="/src/assets/contact.jpg" className=" rounded-lg w-9/12 lg:w-11/12 md:w-8/12 h-6/6" alt=""/>
+                        <img src="/src/assets/contact.webp" className=" rounded-lg w-9/12 lg:w-11/12 md:w-8/12 h-6/6" alt=""/>
                     </div> */}
 
                 </div>

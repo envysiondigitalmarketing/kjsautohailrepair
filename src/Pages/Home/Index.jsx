@@ -2,7 +2,7 @@ import Hero from "./Hero"
 import AboutUs from "./AboutUs"
 import ChooseUs from "./ChooseUs"
 import Faq from "./Faq"
-import Testimonials from "./Testimonials"
+// import Testimonials from "./Testimonials"
 
 const Index = () => {
     return (
