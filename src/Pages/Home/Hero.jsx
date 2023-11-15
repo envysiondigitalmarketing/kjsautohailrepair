@@ -1,7 +1,7 @@
 // import { Link } from "react-router-dom";
 import NavBar from "../../Components/NavBar/NavBar";
 import compVidHero from '../../assets/comp_vid_hero.webm';
-import compVidHeroTwo from '../../assets/comp_vid_hero.mp4';
+import compVidHeroTwo from '../../assets/comp_vid_hero_two.mp4';
 import heroHome from '../../assets/hero_home.webp';
 import { useEffect, useRef } from 'react';
 
