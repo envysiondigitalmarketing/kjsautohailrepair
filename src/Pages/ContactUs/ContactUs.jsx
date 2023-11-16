@@ -1,5 +1,5 @@
 import { IoLocationSharp } from "react-icons/io5"
-import { BsMailbox, BsMailbox2, BsTelephoneFill } from "react-icons/bs"
+import { BsMailbox2, BsTelephoneFill } from "react-icons/bs"
 import { BiSolidTimeFive } from "react-icons/bi"
 import NavBar from "../../Components/NavBar/NavBar"
 const ContactUs = () => {
