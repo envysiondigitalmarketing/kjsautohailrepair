@@ -1,4 +1,4 @@
-import { BsFacebook } from "react-icons/bs"
+import { BsFacebook, BsMailbox2 } from "react-icons/bs"
 import Logo from "../../assets/FooterLogo.webp"
 import { Link } from "react-router-dom"
 import { IoLocationSharp } from "react-icons/io5"
@@ -49,6 +49,13 @@ const Footer = () => {
                                 </span>
                                 <span className="font-semibold ">Phone Number</span>
                                 <span className="">(214) 766-6176</span>
+                            </div>
+                            <div className="flex  items-center gap-x-2 w-full flex-wrap">
+                                <span className="">
+                                <BsMailbox2 className="text-xl " />
+                                </span>
+                                <span className="font-semibold ">Email</span>
+                                <span className="">contact@kjsautohailrepair.com</span>
                             </div>
                             {/* <div className="flex  items-center gap-x-2 w-full flex-wrap">
                                 <span className="">
