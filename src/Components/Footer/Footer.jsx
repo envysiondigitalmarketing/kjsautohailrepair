@@ -1,10 +1,11 @@
-import { BsFacebook, BsMailbox2 } from "react-icons/bs"
-import Logo from "../../assets/FooterLogo.webp"
-import { Link } from "react-router-dom"
-import { IoLocationSharp } from "react-icons/io5"
-import { BsTelephoneFill } from "react-icons/bs"
-import { BiSolidTimeFive } from "react-icons/bi"
-import { FaInstagram, FaTwitter } from "react-icons/fa"
+import { BsFacebook, BsMailbox2 } from "react-icons/bs";
+import Logo from "../../assets/FooterLogo.webp";
+import { Link } from "react-router-dom";
+import { IoLocationSharp } from "react-icons/io5";
+import { BsTelephoneFill } from "react-icons/bs";
+import { BiSolidTimeFive } from "react-icons/bi";
+import { FaInstagram, FaTwitter } from "react-icons/fa";
+import { MdEmail } from 'react-icons/md';
 const Footer = () => {
     return (
         <>
@@ -52,7 +53,7 @@ const Footer = () => {
                             </div>
                             <div className="flex  items-center gap-x-2 w-full flex-wrap">
                                 <span className="">
-                                <BsMailbox2 className="text-xl " />
+                                    <MdEmail className="text-xl " />
                                 </span>
                                 <span className="font-semibold ">Email</span>
                                 <span className="">contact@kjsautohailrepair.com</span>

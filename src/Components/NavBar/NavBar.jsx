@@ -1,10 +1,11 @@
 import { Link, NavLink, useLocation } from "react-router-dom"
-import Logo from "../../assets/logo.webp"
+import Logo from "../../assets/Logo.webp"
 import { BiMenuAltRight } from "react-icons/bi";
 import { useEffect, useState, useRef } from "react";
 import { IoClose } from "react-icons/io5";
 import { IoLocationSharp } from "react-icons/io5"
-import { BsMailbox2, BsTelephoneFill } from "react-icons/bs"
+import { BsMailbox2, BsTelephoneFill } from "react-icons/bs";
+import { MdEmail } from 'react-icons/md';
 import useClickOutsideDetector from "../../Hooks/useClickOutsideDetector"
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const NavBar = () => {
@@ -37,7 +38,7 @@ const NavBar = () => {
                         <span>(214) 766-6176</span>
                     </div>
                     <div className="flex items-center gap-x-2 ">
-                        <span className="text-lg"><BsMailbox2 /></span>
+                        <span className="text-lg"><MdEmail /></span>
                         <span>contact@kjsautohailrepair.com</span>
                     </div>
                 </div>

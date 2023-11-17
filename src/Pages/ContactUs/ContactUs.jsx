@@ -1,6 +1,7 @@
 import { IoLocationSharp } from "react-icons/io5"
 import { BsMailbox2, BsTelephoneFill } from "react-icons/bs"
 import { BiSolidTimeFive } from "react-icons/bi"
+import { MdEmail } from 'react-icons/md';
 import NavBar from "../../Components/NavBar/NavBar"
 const ContactUs = () => {
     return (
@@ -54,7 +55,7 @@ const ContactUs = () => {
                         <div className="flex  items-center gap-x-2 w-full flex-wrap">
                             <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
 
-                                <BsMailbox2 className="text-xl sm:text-base text-white" />
+                                <MdEmail className="text-xl sm:text-base text-white" />
                             </span>
                             <span className="font-semibold text-white">Email</span>
                             <span className="text-white">contact@kjsautohailrepair.com</span>
