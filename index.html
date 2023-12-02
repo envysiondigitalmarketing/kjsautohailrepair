@@ -8,11 +8,9 @@
   </head>
   <body>
     <div id="fb-root"></div>
-
     <!-- Your Chat Plugin code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
-    <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <script>
       var chatbox = document.getElementById('fb-customer-chat');
@@ -37,5 +35,6 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
+    <div id="root"></div>
   </body>
 </html>
