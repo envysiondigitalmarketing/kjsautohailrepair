@@ -17,16 +17,16 @@ const ContactUs = () => {
                     <div className="">
                         <form action="" className="flex flex-col gap-y-4" method="post" name='contact' netlify>
                             <div className="flex gap-x-4">
-                                <input type="text" placeholder="Name" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+                                <input type="text" name='name' placeholder="Name" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
                             </div>
                             <div className="">
-                                <input type="text" placeholder="Email" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+                                <input type="text" name='email' placeholder="Email" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
                             </div>
                             <div className="">
-                                <input type="text" placeholder="Subject" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+                                <input type="text" name='subject' placeholder="Subject" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
                             </div>
                             <div className="">
-                                <select title='Referred by...' placeholder="Referred by..." required='required' className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 custom-select" defaultValue='referred-by'> 
+                                <select title='Referred by...' name='referred-by' placeholder="Referred by..." required='required' className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 custom-select" defaultValue='referred-by'> 
                                     <option disabled value="referred-by" className=''>
                                         Referred by...
                                     </option>
