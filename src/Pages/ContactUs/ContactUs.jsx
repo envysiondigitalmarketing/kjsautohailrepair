@@ -12,7 +12,7 @@ const ContactUs = () => {
                 <h1 className="text-center text-4xl text-white">Contact Us</h1>
             </div>
             <div className="w-full md:w-11/12  md:flex-col mx-auto  flex justify-center min-h-[400px] my-6 mt-20 max-w-[1700px] rounded-lg">
-                <div className="w-7/12 h-full p-3 md:w-full px-9">
+                {/* <div className="w-7/12 h-full p-3 md:w-full px-9">
                     <h2 className="text-2xl py-7">Get In Touch</h2>
                     <div className="">
                         <form action="" className="flex flex-col gap-y-4" method="post" name='contact' netlify>
@@ -45,7 +45,7 @@ const ContactUs = () => {
                             <button className="w-40 h-12  mt-1 rounded-lg bg-[#f79f24] font-semibold text-white">Send Message</button>
                         </form>
                     </div>
-                </div>
+                </div> */}
                     <div className="bg-[#f79f24] w-[500px] rounded-lg sm:w-full min-h-full flex flex-col gap-y-14 justify-center pl-7 md:w-full md:py-10 md:gap-y-9">
                         <div className="flex  items-center gap-x-2 w-full flex-wrap ">
 
