@@ -15,7 +15,7 @@ const ContactUs = () => {
                 <div className="w-7/12 h-full p-3 md:w-full px-9">
                     <h2 className="text-2xl py-7">Get In Touch</h2>
                     <div className="">
-                        <form action="" className="flex flex-col gap-y-4" method="post" netlify>
+                        <form action="" className="flex flex-col gap-y-4" method="post" name='contact' netlify>
                             <div className="flex gap-x-4">
                                 <input type="text" placeholder="Name" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
                             </div>
