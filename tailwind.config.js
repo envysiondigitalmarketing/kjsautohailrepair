@@ -23,5 +23,26 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins:
+    // [
+    //   ({ addUtilities }) => {
+    //     const newUtilities = {
+    //       ".custom-select": {
+    //         color: "#9AA3AE",
+    //       },
+    //     };
+    //     addUtilities(newUtilities, ["responsive", "hover"]);
+    //   },
+    // ],
+    [
+      function ({ addUtilities }) {
+        const newUtilities = {
+          ".custom-select": {
+            color: "#9AA3AE",
+          },
+        };
+
+        addUtilities(newUtilities);
+      },
+    ],
 };
