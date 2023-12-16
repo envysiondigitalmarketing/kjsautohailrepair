@@ -18,29 +18,29 @@ const ContactUs = () => {
                         <form name='contact' action="/contact" method="post" netlify className="flex flex-col gap-y-4" id='contact'>
                             <input type="hidden" name="form-name" value="contact" />
                             <div className="flex gap-x-4">
-                                <input type="text" name='name' placeholder="Name" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+                                <input type="text" name='name' placeholder="Name" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 "  required/>
                             </div>
                             <div className="">
-                                <input type="text" name='email' placeholder="Email" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+                                <input type="text" name='email' placeholder="Email" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 "  required/>
                             </div>
                             <div className="">
-                                <input type="text" name='subject' placeholder="Subject" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+                                <input type="text" name='subject' placeholder="Subject" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 "  required/>
                             </div>
                             <div className="">
-                                <select title='Referred by...' name='referred-by' placeholder="Referred by..." required='required' className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 custom-select" defaultValue='referred-by'> 
+                                <select title='Referred by...' name='referred-by' placeholder="Referred by..." required className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 custom-select" defaultValue='referred-by'> 
                                     <option disabled value="referred-by" className=''>
                                         Referred by...
                                     </option>
-                                    <option value="multiple">Jason</option>
-                                    <option value="web-dev">Shandra</option>
-                                    <option value="web-dev">Chris</option>
-                                    <option value="advertisements">Robert</option>
-                                    <option value="blogging">Anthony</option>
-                                    <option value="blogging">Other</option>
+                                    <option value="Jason">Jason</option>
+                                    <option value="Shandra">Shandra</option>
+                                    <option value="Chris">Chris</option>
+                                    <option value="Robert">Robert</option>
+                                    <option value="Anthony">Anthony</option>
+                                    <option value="Other">Other</option>
                                 </select>
                             </div>
                             <div className="">
-                                <textarea name="" id="" cols="30" rows="10" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " placeholder="Message"></textarea>
+                                <textarea name="message" id="message" cols="30" rows="10" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " placeholder="Message" required></textarea>
 
                             </div>
                             <button className="w-40 h-12  mt-1 rounded-lg bg-[#f79f24] font-semibold text-white">Send Message</button>
