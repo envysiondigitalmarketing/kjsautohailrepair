@@ -9,16 +9,16 @@
   <body>
     <form name='contact' netlify netlify-honeypot='bot-field' hidden>
       <div className="flex gap-x-4">
-          <input type="text" name='name'  className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+          <input type="text" name='name' required className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
       </div>
       <div className="">
-          <input type="text" name='email'  className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+          <input type="text" name='email' required className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
       </div>
       <div className="">
-          <input type="text" name='subject'  className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+          <input type="text" name='subject' required className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
       </div>
       <div className="">
-          <select title='Referred by...' name='referred-by' required='required' className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 custom-select" defaultValue='referred-by'> 
+          <select title='Referred by...' name='referred-by' required className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 custom-select" defaultValue='referred-by'> 
               <option disabled value="referred-by" className=''>
                   Referred by...
               </option>
@@ -31,8 +31,7 @@
           </select>
       </div>
       <div className="">
-          <textarea name="" id="" cols="30" rows="10" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " placeholder="Message"></textarea>
-
+          <textarea name="" id="" cols="30" rows="10" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " placeholder="Message" required></textarea>
       </div>
       <button className="w-40 h-12  mt-1 rounded-lg bg-[#f79f24] font-semibold text-white">Send Message</button>
     </form>
