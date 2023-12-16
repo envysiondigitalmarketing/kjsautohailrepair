@@ -7,9 +7,36 @@
     <title>KJS Autos</title>
   </head>
   <body>
-    <div id="root">
-      <form name='contact' method="POST" netlify hidden></form>
-    </div>
+    <form name='contact' netlify netlify-honeypot='bot-field' hidden>
+      <div className="flex gap-x-4">
+          <input type="text" name='name'  className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+      </div>
+      <div className="">
+          <input type="text" name='email'  className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+      </div>
+      <div className="">
+          <input type="text" name='subject'  className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " />
+      </div>
+      <div className="">
+          <select title='Referred by...' name='referred-by' required='required' className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 custom-select" defaultValue='referred-by'> 
+              <option disabled value="referred-by" className=''>
+                  Referred by...
+              </option>
+              <option value="multiple">Jason</option>
+              <option value="web-dev">Shandra</option>
+              <option value="web-dev">Chris</option>
+              <option value="advertisements">Robert</option>
+              <option value="blogging">Anthony</option>
+              <option value="blogging">Other</option>
+          </select>
+      </div>
+      <div className="">
+          <textarea name="" id="" cols="30" rows="10" className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 " placeholder="Message"></textarea>
+
+      </div>
+      <button className="w-40 h-12  mt-1 rounded-lg bg-[#f79f24] font-semibold text-white">Send Message</button>
+    </form>
+    <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
