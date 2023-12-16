@@ -7,7 +7,11 @@
     <title>KJS Autos</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <form name='contact' method="POST" netlify action="" className="flex flex-col gap-y-4" hidden>
+        <input type="hidden" name="contact" value="contact" />
+      </form>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
