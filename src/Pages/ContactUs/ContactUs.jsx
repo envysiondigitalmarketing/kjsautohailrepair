@@ -31,6 +31,8 @@ const ContactUs = () => {
                                     <option disabled value="referred-by" className=''>
                                         Referred by...
                                     </option>
+                                    <option value="Spotify-Ad">Spotify Ad</option>
+                                    <option value="Facebook-Ad">Facebook Ad</option>
                                     <option value="Jason">Jason</option>
                                     <option value="Shandra">Shandra</option>
                                     <option value="Chris">Chris</option>
