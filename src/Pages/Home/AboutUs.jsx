@@ -55,7 +55,7 @@ const AboutUs = () => {
                     </p></li>
                 </ul>
                 <div className="w-1/2 flex justify-center md:w-full">
-                    <img src={AboutImg} className="w-9/12 object-cover lg:w-11/12 md:w-8/12 h-5/6" alt="" />
+                    <img src={AboutImg} className="w-9/12 object-cover lg:w-11/12 md:w-8/12 h-5/6" alt="Big image of before and after hail damage" />
                 </div>
             </div>
         </div>

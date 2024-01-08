@@ -92,7 +92,7 @@ const TestimonialCard = (props) => {
                     <div className=" flex gap-x-5 items-center">
                         <img
                             src={props.imgsrc}
-                            alt=""
+                            alt="Generic avatar pic of human silhouette"
                             className="w-20 h-20 rounded-full"
                             loading="lazy"
                         />

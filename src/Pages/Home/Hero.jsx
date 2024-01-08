@@ -36,7 +36,7 @@ const Hero = () => {
           <video ref={videoRef} className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]" playsInline autoPlay muted>
             <source src={compVidHero} type="video/webm" />
             <source src={compVidHeroTwo} type="video/mp4" />
-            <img src={heroHome}/>
+            <img src={heroHome} alt='Hail repair in progress'/>
             Your browser does not support the video tag.
           </video>
     
