@@ -31,12 +31,11 @@ const ContactUs = () => {
                                     <option disabled value="referred-by" className=''>
                                         Referred by...
                                     </option>
-                                    <option value="Spotify-Ad">Spotify Ad</option>
-                                    <option value="Facebook-Ad">Facebook Ad</option>
                                     <option value="Studio-809-Podcasts">Studio 809 Podcasts</option>
                                     <option value="Kevin-James-Bond">Kevin James Bond</option>
+                                    <option value="Spotify-Ad">Spotify Ad</option>
+                                    <option value="Facebook-Ad">Facebook Ad</option>
                                     <option value="Jason">Jason</option>
-                                    <option value="Joel">Joel</option>
                                     <option value="Shandra">Shandra</option>
                                     <option value="Chris">Chris</option>
                                     <option value="Other">Other</option>
