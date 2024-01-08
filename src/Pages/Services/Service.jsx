@@ -35,7 +35,7 @@ const Service = () => {
                         </p>
                     </div>
                     {/* <div className="w-1/2 lg:w-full">
-                        <img src={ServiceImg} alt="" />
+                        <img src={ServiceImg} alt="" loading='lazy'/>
                     </div> */}
                 </div>
                 {/* Our Hail Damage Service */}

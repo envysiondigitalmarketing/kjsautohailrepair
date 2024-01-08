@@ -57,7 +57,7 @@ const NavBar = () => {
             <div className="w-11/12 flex justify-between items-center sm:gap-x-10">
                 <div className="w-max">
                     <Link to={"/"}>
-                        <img src={Logo} alt="Header logo" className="w-max h-20 sm:object-scale-down" />
+                        <img src={Logo} alt="Header logo" className="w-max h-20 sm:object-scale-down" loading='lazy'/>
                     </Link>
                 </div>
                 {/*  */}
@@ -66,7 +66,7 @@ const NavBar = () => {
                         <div className="bg-gray-300 h-[130px] hidden  md:flex justify-center items-center">
 
                             <Link to={"/"}>
-                                <img src={Logo} alt="Header logo" className="w-full h-10 sm:object-scale-down" />
+                                <img src={Logo} alt="Header logo" className="w-full h-10 sm:object-scale-down" loading='lazy'/>
                             </Link>
                         </div>
                     }

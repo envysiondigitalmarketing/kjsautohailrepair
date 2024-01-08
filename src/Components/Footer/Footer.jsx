@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="flex justify-evenly items-start gap-x-4 mx-auto  flex-wrap px-3 sm:flex-col sm:items-start max-w-[1700px]">
                     <div className="flex justify-center flex-col sm:items-start">
 
-                        <img src={Logo} alt="Footer logo" className="w-4/12 h-20  object-contain" />
+                        <img src={Logo} alt="Footer logo" className="w-4/12 h-20  object-contain" loading='lazy'/>
                         <p className="w-[300px] sm:w-9/12">Your Trusted Source for Hail Damage Solutions.</p>
                     </div>
                     <div className="pt-4">

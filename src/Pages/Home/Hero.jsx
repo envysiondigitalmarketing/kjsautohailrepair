@@ -41,7 +41,7 @@ const Hero = () => {
             <source src={compVidHeroTwo} type="video/mp4" />
           </video> */}
 
-          <img src={heroHome} alt='Hail repair in progress' className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]"/>
+          <img src={heroHome} alt='Hail repair in progress' className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]" loading='lazy'/>
     
           {/* Content Overlay */}
           <div className="relative z-10 bg-opacity-75 text-white">
