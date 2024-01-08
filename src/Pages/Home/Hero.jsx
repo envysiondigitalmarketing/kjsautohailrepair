@@ -6,11 +6,14 @@ import heroHome from '../../assets/hero_home.webp';
 import { useEffect, useRef } from 'react';
 
 const Hero = () => {
-    const videoRef = useRef();
+    // const videoRef = useRef();
 
-    useEffect(() => {
-      videoRef.current.play();
-    }, []);
+    // useEffect(() => {
+    //   videoRef.current.play();
+    // }, []);
+
+
+
     // return (
     //     <>
     //         <div className="relative  bg-hero_bg min-h-[700px] bg-cover rounded-br-[30%] bg-center">
@@ -33,12 +36,12 @@ const Hero = () => {
     return (
         <div className="relative bg-black min-h-[700px] bg-cover bg-center rounded-br-[30%]">
           {/* Video Background */}
-          <video ref={videoRef} className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]" playsInline autoPlay muted>
+          {/* <video ref={videoRef} className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]" playsInline autoPlay muted>
             <source src={compVidHero} type="video/webm" />
             <source src={compVidHeroTwo} type="video/mp4" />
-            <img src={heroHome} alt='Hail repair in progress'/>
-            Your browser does not support the video tag.
-          </video>
+          </video> */}
+
+          <img src={heroHome} alt='Hail repair in progress' className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]"/>
     
           {/* Content Overlay */}
           <div className="relative z-10 bg-opacity-75 text-white">
