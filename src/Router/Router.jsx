@@ -8,6 +8,9 @@ import Service from '../Pages/Services/Service'
 import ScrollTop from "../Utils/ScrollTop"
 import Error from "../Pages/Error/Error"
 
+import MainBlogPage from "../Pages/Blog/index"
+import BlogPost from "../Pages/BlogPost/index"
+
 const Router = () => {
     return (
         <BrowserRouter>
@@ -18,7 +21,9 @@ const Router = () => {
                 <Route exact path='/Contact' element={<ContactUs />} />
                 <Route exact path='/Service' element={<Service />} />
                 <Route path='*' element={<Error />} />
-
+                
+                <Route path='/blog' element={<MainBlogPage />} />
+                <Route path='/blog/:slug' element={<BlogPost />} />
             </Routes>
             <Footer />
             <ScrollTop />
