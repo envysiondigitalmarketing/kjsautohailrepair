@@ -14,7 +14,7 @@ const Author = ({imgURL, name , title}) => {
             <img
                 className="w-full h-full object-cover object-bottom"
                 src={imgUrl}
-                alt=""
+                alt="Author"
             />
         )}
     </div>

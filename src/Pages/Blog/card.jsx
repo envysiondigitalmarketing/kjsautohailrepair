@@ -8,7 +8,7 @@ const BlogCard = ({ title, description, image, link, date, author }) => {
     const { imgUrl, loading } = useStorage(image);
 
     return (
-        <section className="pt-32 mb-10">
+        <section className="pt-32 mb-10 sm:mb-6 pt-20">
             <div>
                 <ul className="mx-auto w-1/2 -mt-20 md:mx-auto md:w-11/12 lg:mx-auto">
                     <div>
@@ -27,6 +27,7 @@ const BlogCard = ({ title, description, image, link, date, author }) => {
                                         <img
                                             className="w-full h-full object-cover"
                                             src={imgUrl}
+                                            loading="lazy"
                                             alt="A man sitting alone in a cafe waiting for someone who will never show up."
                                         />
                                     )}
@@ -41,7 +42,7 @@ const BlogCard = ({ title, description, image, link, date, author }) => {
                                         {title}
                                     </h2>
                                     <p className="text-sm mb-6 flex-grow max-w-prose text-gray-600">
-                                        {description}
+                                        {String(description).slice(0, 200) + "..."}
                                     </p>
                                     {loading ? (
                                         "Loading..."

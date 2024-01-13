@@ -92,13 +92,13 @@ const NavBar = () => {
                                     : "") + " hover:text-[#f79f24] md:hover:text-black duration-150 "
                             } >Contact Us</NavLink>
                         </li>
-                        {/* <li>
+``                        <li>
                             <NavLink to={"/Blog"} className={({ isActive }) =>
                                 (isActive
                                     ? "text-[#f79f24]"
                                     : "") + " hover:text-[#f79f24] duration-150 "
                             } >Blog Design</NavLink>
-                        </li> */}
+                        </li>
                     </ul>
                 </div>
                 <div className="hidden md:block">

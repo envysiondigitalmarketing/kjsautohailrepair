@@ -25,11 +25,11 @@ const MainBlogPage = () => {
 
     return (
         <>
-            <div className="bg-silver">
+            <div className="bg-blue-400">
                 <NavBar />
             </div>
             {title && (
-                <h1 className="text-3xl lg:text-5xl font-semibold text-center mx-4 lg:mx-0 text-black">
+                <h1 className="p-8 text-3xl lg:text-5xl font-semibold text-center mx-4 lg:mx-0 text-black sm:text-2xl">
                     {title}
                 </h1>
             )}
