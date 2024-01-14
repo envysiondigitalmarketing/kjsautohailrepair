@@ -4,7 +4,7 @@ import { useStorage } from "../../firebase/helper";
 const Author = ({imgURL, name , title}) => {
 
     const { imgUrl, isLoading } = useStorage(imgURL);
-        console.log("PrfileImg", imgUrl);
+        // console.log("PrfileImg", imgUrl);
     return (
     <div className="flex items-center">
     <div className="h-8 w-8 rounded-sm overflow-hidden flex-shrink-0">

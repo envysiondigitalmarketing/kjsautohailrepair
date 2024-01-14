@@ -8,7 +8,7 @@ const PasswordModal = ({ showModal, onPasswordSubmit }) => {
     const [password, setPassword] = useState('');
     const [redirect, setRedirect] = useState(false);
 
-    console.log("showModal", showModal);
+    // console.log("showModal", showModal);
     const handlePasswordChange = (e) => {
       setPassword(e.target.value);
     };

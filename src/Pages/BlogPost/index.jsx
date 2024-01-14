@@ -37,7 +37,7 @@ function BlogPost() {
 
     if (loading) return <Spinner value={"h-screen"} />;
 
-    console.log(showModal, "document");
+    // console.log(showModal, "document");
 
     if (showModal) {
         return (

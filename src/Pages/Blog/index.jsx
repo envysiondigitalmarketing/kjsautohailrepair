@@ -8,7 +8,7 @@ const MainBlogPage = () => {
 
     const { title, blogs } = documents[0] || {};
 
-    console.log(title, blogs);
+    // console.log(title, blogs);
     const blogPaths =
         Array.isArray(blogs) &&
         blogs.map((docRef) => {
@@ -21,7 +21,7 @@ const MainBlogPage = () => {
 
     if (loadingBlogsData || loading) return <Spinner value={"h-screen"} />;
 
-    console.log(blogsData, "blogsData");
+    // console.log(blogsData, "blogsData");
 
     return (
         <>
