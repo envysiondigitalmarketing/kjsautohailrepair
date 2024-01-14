@@ -20,7 +20,7 @@ const NavBar = () => {
     })
 
     const textAndBorder = (page) => 
-        page === '/Contact' ? "text-black" : "text-white";
+        page === '/Contact' || page === '/Blog' ? "text-black" : "text-white";
         
     const location = useLocation();
 
@@ -70,7 +70,7 @@ const NavBar = () => {
                             </Link>
                         </div>
                     }
-                    <ul className={`float-right flex items-center  justify-evenly h-full md:h-4/5 w-10/12 lg:w-full text-lg md:flex-col ${location.pathname === "/Contact" ? "text-black " : "text-white md:text-black"}`}>
+                    <ul className={`float-right flex items-center  justify-evenly h-full md:h-4/5 w-10/12 lg:w-full text-lg md:flex-col ${location.pathname === "/Contact" || location.pathname === "/Blog" ? "text-black " : "text-white md:text-black"}`}>
                         <li className="">
                             <NavLink to={"/"} onClick={() => setShow(false)} className={({ isActive }) =>
                                 (isActive
@@ -92,12 +92,12 @@ const NavBar = () => {
                                     : "") + " hover:text-[#f79f24] md:hover:text-black duration-150 "
                             } >Contact Us</NavLink>
                         </li>
-``                        <li>
+                        <li>
                             <NavLink to={"/Blog"} className={({ isActive }) =>
                                 (isActive
                                     ? "text-[#f79f24]"
                                     : "") + " hover:text-[#f79f24] duration-150 "
-                            } >Blog Design</NavLink>
+                            } >Blog</NavLink>
                         </li>
                     </ul>
                 </div>

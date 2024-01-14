@@ -11,9 +11,7 @@ const MainBlogPage = () => {
     // console.log(title, blogs);
     const blogPaths =
         Array.isArray(blogs) &&
-        blogs.map((docRef) => {
-            return docRef.path;
-        });
+        blogs.map(docRef => docRef.path);
 
     const { data: blogsData, loading: loadingBlogsData } = useBlogsData(
         blogPaths || []
@@ -25,29 +23,28 @@ const MainBlogPage = () => {
 
     return (
         <>
-            <div className="bg-blue-400">
-                <NavBar />
-            </div>
-            {title && (
-                <h1 className="p-8 text-3xl lg:text-5xl font-semibold text-center mx-4 lg:mx-0 text-black sm:text-2xl">
-                    {title}
-                </h1>
-            )}
+            <NavBar />
+            <div className=" pb-10  flex justify-center items-center flex-col">
+                <div className="bg-blog_bg min-h-[400px] w-full flex justify-center items-center bg-cover bg-center">
+                    <h1 className="text-center text-4xl text-white">{title}</h1>
+                </div>
 
-            <div className="pb:32">
-                {blogsData &&
-                    blogsData.map((blog, index) => {
-                        return (
-                            <BlogCard
-                                key={blog.id}
-                                title={blog.title}
-                                description={blog.description}
-                                image={blog.image}
-                                link={`/${blogPaths[index]}`}
-                                author={blog.author}
-                            />
-                        );
-                    })}
+                <div className="pb:32">
+                    {blogsData &&
+                        blogsData.map((blog, index) => {
+                            return (
+                                <BlogCard
+                                    key={index}
+                                    title={blog.title}
+                                    description={blog.description}
+                                    date={blog.date}
+                                    image={blog.image}
+                                    link={`/${blogPaths[index]}`}
+                                    author={blog.author}
+                                />
+                            );
+                        })}
+                </div>
             </div>
         </>
     );

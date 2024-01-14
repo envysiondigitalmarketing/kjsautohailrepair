@@ -20,6 +20,8 @@ export default {
           " linear-gradient(120deg,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url('./assets/contact.webp')",
         service_bg:
           " linear-gradient(120deg,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url('./assets/service.webp')",
+        blog_bg:
+          " linear-gradient(120deg,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url('./assets/blog.webp')",
       },
     },
   },

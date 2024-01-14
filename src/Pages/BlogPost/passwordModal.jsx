@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 // eslint-disable-next-line react/prop-types
 const PasswordModal = ({ showModal, onPasswordSubmit }) => {
 
-    const PASS = "123456";
+    const PASS = "springs_24";
 
     const [password, setPassword] = useState('');
     const [redirect, setRedirect] = useState(false);

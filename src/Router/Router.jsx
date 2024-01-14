@@ -18,8 +18,8 @@ const Router = () => {
 
             <Routes>
                 <Route exact path='/' element={<Index />} />
-                <Route exact path='/Contact' element={<ContactUs />} />
                 <Route exact path='/Service' element={<Service />} />
+                <Route exact path='/Contact' element={<ContactUs />} />
                 <Route path='*' element={<Error />} />
                 
                 <Route path='/blog' element={<MainBlogPage />} />

@@ -10,11 +10,11 @@ const BlogCard = ({ title, description, image, link, date, author }) => {
     return (
         <section className="pt-32 mb-10 sm:mb-6 pt-20">
             <div>
-                <ul className="mx-auto w-1/2 -mt-20 md:mx-auto md:w-11/12 lg:mx-auto">
+                <ul className="-mt-20 md:mx-auto md:w-11/12 lg:mx-auto">
                     <div>
                         <div
                             className="relative"
-                            style={{ border: "3px solid #36acc0" }}
+                            style={{ border: "1px solid" }}
                         >
                             <Link
                                 to={link}
@@ -33,16 +33,14 @@ const BlogCard = ({ title, description, image, link, date, author }) => {
                                     )}
                                 </div>
                                 <div className="">
-                                    <div className="mt-2">
-                                        <span className="text-gray-400 mx-2 font-medium text-sm">
-                                            {date}
-                                        </span>
-                                    </div>
                                     <h2 className="font-workSans text-2xl font-semibold my-2 text-gray-700">
                                         {title}
                                     </h2>
-                                    <p className="text-sm mb-6 flex-grow max-w-prose text-gray-600">
+                                    <p className="text-sm flex-grow max-w-prose text-gray-600">
                                         {String(description).slice(0, 200) + "..."}
+                                    </p>
+                                    <p className="text-sm mb-6 flex-grow max-w-prose text-gray-600">
+                                        {date}
                                     </p>
                                     {loading ? (
                                         "Loading..."
