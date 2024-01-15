@@ -10,7 +10,7 @@ const BlogCard = ({ title, description, image, link, date, author }) => {
     return (
         <section className="pt-32 mb-10 sm:mb-6 pt-20">
             <div>
-                <ul className="-mt-20 md:mx-auto md:w-11/12 lg:mx-auto">
+                <ul className="-mt-20 mx-36 md:w-11/12 lg:mx-auto">
                     <div>
                         <div
                             className="relative"
