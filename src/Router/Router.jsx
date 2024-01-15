@@ -14,7 +14,7 @@ import BlogPost from "../Pages/BlogPost/index"
 const Router = () => {
     return (
         <BrowserRouter>
-            {/* <NavBar /> */}
+            <NavBar />
 
             <Routes>
                 <Route exact path='/' element={<Index />} />

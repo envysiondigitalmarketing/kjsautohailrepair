@@ -37,8 +37,6 @@ function BlogPost() {
 
     if (loading) return <Spinner value={"h-screen"} />;
 
-    // console.log(showModal, "document");
-
     if (showModal) {
         return (
             <div className="min-h-screen bg-gray-200">

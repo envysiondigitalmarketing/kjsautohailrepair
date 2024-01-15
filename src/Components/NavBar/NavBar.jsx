@@ -57,7 +57,7 @@ const NavBar = () => {
             <div className="w-11/12 flex justify-between items-center sm:gap-x-10">
                 <div className="w-max">
                     <Link to={"/"}>
-                        <img src={Logo} alt="Header logo" className="w-max h-20 sm:object-scale-down" loading='lazy'/>
+                        <img src={Logo} alt="Header logo" className="h-20 sm:object-scale-down" loading='lazy'/>
                     </Link>
                 </div>
                 {/*  */}
