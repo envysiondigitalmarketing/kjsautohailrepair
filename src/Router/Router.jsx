@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import NavBar from '../Components/NavBar/NavBar'
+// import NavBar from '../Components/NavBar/NavBar'
 import Index from '../Pages/Home/Index'
 import Footer from '../Components/Footer/Footer'
 import ContactUs from '../Pages/ContactUs/ContactUs'
@@ -14,7 +14,7 @@ import BlogPost from "../Pages/BlogPost/index"
 const Router = () => {
     return (
         <BrowserRouter>
-            <NavBar />
+            {/* <NavBar /> */}
 
             <Routes>
                 <Route exact path='/' element={<Index />} />
