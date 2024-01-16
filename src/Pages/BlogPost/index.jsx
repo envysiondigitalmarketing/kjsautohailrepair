@@ -7,7 +7,7 @@ import HeroImage, { components } from "./component";
 import { useEffect, useState } from "react";
 import PasswordModal from "./passwordModal";
 
-async function BlogPost() {
+function BlogPost() {
     const params = useParams();
     const slug = params.slug || "";
 
