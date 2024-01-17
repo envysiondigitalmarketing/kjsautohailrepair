@@ -31,7 +31,7 @@ const MainBlogPage = () => {
 
                 <div className="pb:32">
                     {blogsData &&
-                        blogsData.map((blog, index) => {
+                        blogsData.sort((a, b) => new Date(b.date) - new Date(a.date)).map((blog, index) => {
                             return (
                                 <BlogCard
                                     key={index}
