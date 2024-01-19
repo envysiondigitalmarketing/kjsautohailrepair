@@ -31,7 +31,7 @@ const MainBlogPage = () => {
 
                 <div className="pb:32">
                     {blogsData &&
-                        blogsData.sort((a, b) => new Date(b.date) - new Date(a.date)).map((blog, index) => {
+                        blogsData.map((blog, index) => {
                             return (
                                 <BlogCard
                                     key={index}
@@ -51,3 +51,4 @@ const MainBlogPage = () => {
 };
 
 export default MainBlogPage;
+// .sort((a, b) => new Date(b.date) - new Date(a.date))
