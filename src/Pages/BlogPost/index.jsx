@@ -11,45 +11,45 @@ function BlogPost() {
     const params = useParams();
     const slug = params.slug || "";
 
-    const [showModal, setShowModal] = useState(true);
-    const [passwordVerified, setPasswordVerified] = useState(false);
+    // const [showModal, setShowModal] = useState(true);
+    // const [passwordVerified, setPasswordVerified] = useState(false);
 
-    useEffect(() => {
-        // Check if the password has been verified before
-        const isPasswordVerified =
-            localStorage.getItem("passwordVerified") === "true";
-        if (isPasswordVerified) {
-            setPasswordVerified(true);
-            setShowModal(false);
-        }
-    }, []);
+    // useEffect(() => {
+    //     // Check if the password has been verified before
+    //     const isPasswordVerified =
+    //         localStorage.getItem("passwordVerified") === "true";
+    //     if (isPasswordVerified) {
+    //         setPasswordVerified(true);
+    //         setShowModal(false);
+    //     }
+    // }, []);
 
-    const handleCloseModal = () => {
-        setShowModal(false);
-    };
+    // const handleCloseModal = () => {
+    //     setShowModal(false);
+    // };
 
-    const handlePasswordSubmit = () => {
-        setPasswordVerified(true);
-        setShowModal(false);
-    };
+    // const handlePasswordSubmit = () => {
+    //     setPasswordVerified(true);
+    //     setShowModal(false);
+    // };
 
     const { document, loading } = useDoc("blog", slug);
 
     if (loading) return <Spinner value={"h-screen"} />;
 
-    if (showModal) {
-        return (
-            <div className="min-h-screen bg-gray-200">
-                <PasswordModal
-                    showModal={showModal}
-                    onClose={handleCloseModal}
-                    onPasswordSubmit={handlePasswordSubmit}
-                />
-                ;
-            </div>
-        );
-    }
-    if (passwordVerified) {
+    // if (showModal) {
+    //     return (
+    //         <div className="min-h-screen bg-gray-200">
+    //             <PasswordModal
+    //                 showModal={showModal}
+    //                 onClose={handleCloseModal}
+    //                 onPasswordSubmit={handlePasswordSubmit}
+    //             />
+    //             ;
+    //         </div>
+    //     );
+    // }
+    // if (passwordVerified) {
         return (
             <>
                 <main className="w-full">
@@ -88,7 +88,7 @@ function BlogPost() {
                 </main>
             </>
         );
-    }
+    // }
 }
 
 export default BlogPost;
