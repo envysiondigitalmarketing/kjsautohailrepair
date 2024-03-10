@@ -29,10 +29,6 @@ const Review = () => {
                                 <div className="">
                                     <textarea name="notes" id="notes" cols="30" rows="5" className="w-full pl-2 py-2 outline-none rounded-md border border-gray-300 " placeholder="Notes (Optional)"></textarea>
                                 </div>
-                                <div className="">
-                                    <label htmlFor="photos" className="block mb-2">Photos (Optional)</label>
-                                    <input type="file" name="photos" accept="image/*"/>
-                                </div>
                                 <button className="w-40 h-12 mt-1 rounded-lg bg-[#f79f24] font-semibold text-white">Submit Review</button>
                             </form>
                         </div>
