@@ -17,6 +17,20 @@ const Review = () => {
                                     <input type="text" name='vehicle' placeholder="Vehicle" className="w-full pl-2 py-2 outline-none rounded-md border border-gray-300 " required />
                                 </div>
                                 <div className="">
+                                    <select title='Referred by...' name='referred-by' required className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 custom-select" defaultValue='referred-by'> 
+                                        <option disabled value="referred-by" className=''>
+                                            Referred by...
+                                        </option>
+                                        <option value="Facebook">Facebook</option>
+                                        <option value="Instagram">Instagram</option>
+                                        <option value="Jason">Jason</option>
+                                        <option value="Shandra">Shandra</option>
+                                        <option value="Chris">Chris</option>
+                                        <option value="Adam">Adam</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div className="">
                                     <select title='Rating' name='rating' placeholder="Stars" required className="w-full pl-2 py-2 outline-none rounded-md border border-gray-300 custom-select">
                                         <option value="0">Stars</option>
                                         <option value="1">1</option>
