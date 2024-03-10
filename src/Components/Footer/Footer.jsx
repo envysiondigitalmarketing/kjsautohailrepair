@@ -80,10 +80,10 @@ const Footer = () => {
                             </a>
                             {/* <a href="" className="text-2xl text-[#1877F2]">
                                 <FaTwitter />
-                            </a>
-                            <a href="" className="text-2xl text-[#1877F2]">
-                                <FaInstagram />
                             </a> */}
+                            <a href="https://www.instagram.com/kjsautohailrepair" className="text-2xl text-[#1877F2]">
+                                <FaInstagram />
+                            </a>
                         </div>
                     </div>
                 </div>

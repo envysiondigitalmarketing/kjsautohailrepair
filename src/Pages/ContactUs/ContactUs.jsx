@@ -3,6 +3,7 @@ import { BsMailbox2, BsTelephoneFill } from "react-icons/bs"
 import { BiSolidTimeFive } from "react-icons/bi"
 import { MdEmail } from 'react-icons/md';
 import NavBar from "../../Components/NavBar/NavBar"
+
 const ContactUs = () => {
     return (
         <>
@@ -31,13 +32,12 @@ const ContactUs = () => {
                                     <option disabled value="referred-by" className=''>
                                         Referred by...
                                     </option>
-                                    <option value="Studio-809-Podcasts">Studio 809 Podcasts</option>
-                                    <option value="Kevin-James-Bond">Kevin James Bond</option>
-                                    <option value="Spotify-Ad">Spotify Ad</option>
-                                    <option value="Facebook-Ad">Facebook Ad</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Instagram">Instagram</option>
                                     <option value="Jason">Jason</option>
                                     <option value="Shandra">Shandra</option>
                                     <option value="Chris">Chris</option>
+                                    <option value="Adam">Adam</option>
                                     <option value="Other">Other</option>
                                 </select>
                             </div>
@@ -85,7 +85,7 @@ const ContactUs = () => {
                         </div>
 
                     </div>
-                    {/* <div className="w-3/6 flex justify-center md:w-full">
+                    {/* Just a pic <div className="w-3/6 flex justify-center md:w-full">
                         <img src="/src/assets/contact.webp" className=" rounded-lg w-9/12 lg:w-11/12 md:w-8/12 h-6/6" alt="" loading='lazy'/>
                     </div> */}
 
