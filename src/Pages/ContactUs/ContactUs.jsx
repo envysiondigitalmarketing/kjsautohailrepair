@@ -81,7 +81,9 @@ const ContactUs = () => {
                                 <BiSolidTimeFive className="text-xl sm:text-base text-white" />
                             </span>
                             <span className="font-semibold text-white">Timing</span>
-                            <span className="text-white"> Mon - Fri 8:00 - 5:00</span>
+                            <span className="text-white"> Mon - Fri 9:00 - 5:00</span><br/>
+                            <span className="text-white"><i>*Saturdays by appointment</i></span>
+                            
                         </div>
 
                     </div>

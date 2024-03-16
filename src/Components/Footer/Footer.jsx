@@ -91,12 +91,12 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-            <p className="flex justify-center items-center px-4 sm:text-base sm:text-center bg-gray-200 py-2">
+            {/* <p className="flex justify-center items-center px-4 sm:text-base sm:text-center bg-gray-200 py-2">
                 Copyright &copy; {new Date().getFullYear()} All rights reserved by KJS Auto Hail Repair
-            </p>
-            <p className="flex justify-center items-center px-4 sm:text-base sm:text-center bg-emerald-950 py-2 text-white	">
+            </p> */}
+            {/* <p className="flex justify-center items-center px-4 sm:text-base sm:text-center bg-emerald-950 py-2 text-white	">
                 developed and designed by &nbsp;<a href='http://www.envysionwithawhy.com' className='underline'>envysion digital marketing</a>
-            </p>
+            </p> */}
         </>
     )
 }
