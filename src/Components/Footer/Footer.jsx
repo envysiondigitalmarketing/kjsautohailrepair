@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { IoLocationSharp } from "react-icons/io5";
 import { BsTelephoneFill } from "react-icons/bs";
 import { BiSolidTimeFive } from "react-icons/bi";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaMapMarkedAlt } from "react-icons/fa";
 import { MdEmail } from 'react-icons/md';
 const Footer = () => {
     return (
@@ -83,6 +83,9 @@ const Footer = () => {
                             </a> */}
                             <a href="https://www.instagram.com/kjsautohailrepair" className="text-2xl text-[#1877F2]">
                                 <FaInstagram />
+                            </a>
+                            <a href="https://maps.app.goo.gl/V9e4i9mBBJT2ZiPW8" className="text-2xl text-[#1877F2]">
+                                <FaMapMarkedAlt />
                             </a>
                         </div>
                     </div>

@@ -7,7 +7,7 @@ import ContactUs from '../Pages/ContactUs/ContactUs'
 import Service from '../Pages/Services/Service'
 import ScrollTop from "../Utils/ScrollTop"
 import Error from "../Pages/Error/Error"
-import Review from '../Pages/Review/Review'
+// import Review from '../Pages/Review/Review'
 
 import MainBlogPage from "../Pages/Blog/index"
 import BlogPost from "../Pages/BlogPost/index"
@@ -21,7 +21,7 @@ const Router = () => {
                 <Route exact path='/' element={<Index />} />
                 <Route exact path='/Service' element={<Service />} />
                 <Route exact path='/Contact' element={<ContactUs />} />
-                <Route exact path='/Review' element={<Review />} />
+                {/* <Route exact path='/Review' element={<Review />} /> */}
                 <Route path='*' element={<Error />} />
                 
                 <Route path='/blog' element={<MainBlogPage />} />

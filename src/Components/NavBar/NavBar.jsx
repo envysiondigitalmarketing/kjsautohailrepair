@@ -7,7 +7,7 @@ import { IoLocationSharp } from "react-icons/io5"
 import { BsMailbox2, BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from 'react-icons/md';
 import useClickOutsideDetector from "../../Hooks/useClickOutsideDetector"
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter, FaMapMarkedAlt } from "react-icons/fa";
 
 const NavBar = () => {
     const [sticky, setSticky] = useState("static")
@@ -21,7 +21,7 @@ const NavBar = () => {
     })
 
     const textAndBorder = (page) => 
-        page === '/Contact' || page === '/Blog' || page === '/Review' ? "text-black" : "text-white";
+        page === '/Contact' || page === '/Blog' ? "text-black" : "text-white";
         
     const location = useLocation();
 
@@ -50,6 +50,9 @@ const NavBar = () => {
                     <a href="https://www.instagram.com/kjsautohailrepair" className=" text-xl ">
                         <FaInstagram />
                     </a>
+                    <a href="https://maps.app.goo.gl/V9e4i9mBBJT2ZiPW8" className=" text-xl ">
+                        <FaMapMarkedAlt />
+                    </a>
                     {/* <span className=" text-xl ">
                         <FaTwitter />
                     </span> */}
@@ -71,7 +74,7 @@ const NavBar = () => {
                             </Link>
                         </div>
                     }
-                    <ul className={`float-right flex items-center  justify-evenly h-full md:h-4/5 w-10/12 lg:w-full text-lg md:flex-col ${location.pathname === "/Contact" || location.pathname === "/Blog" || location.pathname === "/Review" ? "text-black " : "text-white md:text-black"}`}>
+                    <ul className={`float-right flex items-center  justify-evenly h-full md:h-4/5 w-10/12 lg:w-full text-lg md:flex-col ${location.pathname === "/Contact" || location.pathname === "/Blog" ? "text-black " : "text-white md:text-black"}`}>
                         <li className="">
                             <NavLink to={"/"} onClick={() => setShow(false)} className={({ isActive }) =>
                                 (isActive
@@ -100,17 +103,17 @@ const NavBar = () => {
                                     : "") + " hover:text-[#f79f24] duration-150 "
                             } >Blog</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to={"/Review"} className={({ isActive }) =>
                                 (isActive
                                     ? "text-[#f79f24]"
                                     : "") + " hover:text-[#f79f24] duration-150 "
                             } >Leave Review</NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 <div className="hidden md:block">
-                    <button className={`${location.pathname === "/Contact" || location.pathname === "/Blog" || location.pathname === "/Review" ? "text-black" : "text-white"}  text-3xl`} onClick={() => setShow(!show)}>
+                    <button className={`${location.pathname === "/Contact" || location.pathname === "/Blog" ? "text-black" : "text-white"}  text-3xl`} onClick={() => setShow(!show)}>
                         {show ?
                             <IoClose />
                             :
