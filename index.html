@@ -57,7 +57,7 @@
             <option value="Adam">Adam</option>
             <option value="Other">Other</option>
         </select>
-    </div>
+      </div>
       <!-- <div className="">
           <select title='Rating' name='rating' placeholder="Stars" required className="w-full pl-2 py-2 outline-none rounded-md border border-gray-300 custom-select">
               <option value="0">Stars</option>
@@ -75,19 +75,44 @@
   </form>
     <div id="root"></div>
     <form action="https://api.smtprelay.co/contact/add?version=2" data-id="ThKXbMPLch" method="post" id="ewf_subscriptionForm_ThKXbMPLch" class="EWF__form Inline">
-        <div class="headers" style="">
-        <h4 id="ewf_formheader" class="EWF__header">Subscribe to our newsletter and receive our 2024 Colorado Hail Season Survival Guide
-        </h4>
-        <p id="ewf_formdesc" style="display: none;">
-        </p>
-        </div>
-        <fieldset style="border:none;" class="webform-custominputs">
-        <div class="inputs">
-        <div>
-        <!-- <label for="email" class="requiredInput">Email
-        </label> -->
-        <input maxlength="60" class="form-control webform__form-control" name="email" size="20" type="email" required="" placeholder="Please enter your email address">
-        </div>
+    <div class="headers" style="">
+            <h4 id="ewf_formheader" class="EWF__header">Subscribe to our newsletter and receive our 2024 Colorado Hail Season Survival Guide
+            </h4>
+            <p id="ewf_formdesc" style="display: none;">
+            </p>
+            </div>
+            <fieldset style="border:none;" class="webform-custominputs">
+            <div class="inputs">
+                <div>
+                    <label for="email" class="requiredInput">Email</label>
+                    <input maxlength="60" class="form-control webform__form-control" name="email" size="20" type="email" required="" placeholder="Please enter your email address">
+                </div>
+            </div>
+            <label for="field_lastname">Last Name
+            </label>
+            <input maxlength="100" class="form-control" name="field_lastname" size="20" type="text" placeholder="Please enter your last name"/>
+            </div>
+            <div>
+                <label for="field_firstname">First Name
+                </label>
+                <input maxlength="100" class="form-control" name="field_firstname" size="20" type="text" placeholder="Please enter your first name"/>
+            </div>
+            <div className="">
+                <select title='Referred by...' name='referred-by' required className="w-full pl-2 py-2 outline-none  rounded-md border border-gray-300 custom-select" defaultValue='referred-by'> 
+                    <label for="field_referred">Referred by...
+                    </label>
+                    <option selected disabled value="referred-by" className=''>
+                        Referred by...
+                    </option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Jason">Jason</option>
+                    <option value="Shandra">Shandra</option>
+                    <option value="Chris">Chris</option>
+                    <option value="Adam">Adam</option>
+                    <option value="Other">Other</option>
+                </select>
+              </div>
         </div>
         <div class="checkboxes">
         </div>
