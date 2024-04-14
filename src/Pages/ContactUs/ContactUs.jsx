@@ -3,6 +3,7 @@ import { BsMailbox2, BsTelephoneFill } from "react-icons/bs"
 import { BiSolidTimeFive } from "react-icons/bi"
 import { MdEmail } from 'react-icons/md';
 import NavBar from "../../Components/NavBar/NavBar"
+import { Link } from 'react-router-dom';
 
 const ContactUs = () => {
     return (
@@ -92,7 +93,9 @@ const ContactUs = () => {
                         </div> */}
 
                 </div>
-
+                <div className="mt-10 flex justify-center items-center">
+                    <Link to={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
+                </div>
             </div>
         </>
     )

@@ -2,6 +2,7 @@ import { useBlogsData, useCollection } from "../../firebase/helper";
 import BlogCard from "./card";
 import NavBar from "../../Components/NavBar/NavBar";
 import Spinner from "../../Components/Spinner";
+import { Link } from 'react-router-dom';
 
 const MainBlogPage = () => {
     const { documents, loading } = useCollection("mainBlogs");
@@ -27,6 +28,10 @@ const MainBlogPage = () => {
             <div className=" pb-10  flex justify-center items-center flex-col">
                 <div className="bg-blog_bg min-h-[400px] w-full flex justify-center items-center bg-cover bg-center">
                     <h1 className="text-center text-4xl text-white">{title}</h1>
+                </div>
+
+                <div className="mt-10 flex justify-center items-center">
+                    <Link to={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
                 </div>
 
                 <div className="pb:32">

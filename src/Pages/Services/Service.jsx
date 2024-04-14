@@ -1,4 +1,5 @@
-import NavBar from "../../Components/NavBar/NavBar"
+import NavBar from "../../Components/NavBar/NavBar";
+import { Link } from 'react-router-dom';
 
 const Service = () => {
     return (
@@ -37,6 +38,9 @@ const Service = () => {
                     {/* <div className="w-1/2 lg:w-full">
                         <img src={ServiceImg} alt="" loading='lazy'/>
                     </div> */}
+                </div>
+                <div className="mt-10 flex justify-center items-center">
+                    <Link to={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
                 </div>
                 {/* Our Hail Damage Service */}
                 <div className="mt-5 relative">
@@ -104,6 +108,10 @@ const Service = () => {
                             </p>
                         </li>
                     </ul>
+
+                    <div className="mt-10 flex justify-center items-center">
+                        <Link to={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
+                    </div>
 
                     <p className=" w-8/12 mx-auto text-xl mt-9 md:w-10/12  sm:w-11/12">When you choose KJS Auto Hail Repair for hail damage repair you're choosing a team that cares about your vehicle's well-being and your peace of mind. We're here to restore your vehicle's beauty, functionality, and value, making your experience with us as seamless as possible.
                     </p>
@@ -222,6 +230,9 @@ const Service = () => {
                         returned to you in its pre-damage condition. When it comes to hail damage repairs, trust us to
                         deliver exceptional service from start to finish
                     </p>
+                </div>
+                <div className="mt-10 flex justify-center items-center">
+                    <Link to={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
                 </div>
             </div>
         </div >

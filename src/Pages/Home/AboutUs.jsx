@@ -2,6 +2,8 @@
 // import arrow from "../../assets/arrow.png"
 // import car from "../../assets/car.png"
 import AboutImg from "../../assets/about.webp"
+import { Link } from 'react-router-dom';
+
 const AboutUs = () => {
     return (
         <div className=" py-6 flex flex-col mt-9 relative">
@@ -57,6 +59,9 @@ const AboutUs = () => {
                 <div className="w-1/2 flex justify-center md:w-full">
                     <img src={AboutImg} className="w-9/12 object-cover lg:w-11/12 md:w-8/12 h-5/6" alt="Big image of before and after hail damage" loading='lazy'/>
                 </div>
+            </div>
+            <div className="mt-10 flex justify-center items-center">
+                <Link to={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
             </div>
         </div>
     )

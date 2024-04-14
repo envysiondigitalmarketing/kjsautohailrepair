@@ -1,8 +1,9 @@
 import ChooseUsCard from "../../Components/ChooseUsCard/ChooseUsCard"
+import { Link } from 'react-router-dom';
 
 const ChooseUs = () => {
     return (
-        <div className="bg-[#f8f9fd] pt-1 pb-1">
+        <div className="bg-[#f8f9fd] pt-1 pb-10">
             <div className="w-7/12 mx-auto sm:w-11/12">
 
                 <h1 className="text-5xl my-6 text-center text-[#f79f24] font-semibold">Why Choose Us</h1>
@@ -37,6 +38,9 @@ work making sure that your vehicle's finish is impeccable" />
                     commitment to excellence. Your vehicle deserves nothing less and neither do you. Experience the
                     difference with us and you'll see why our customers prefer our services.
                 </p>
+            </div>
+            <div className="mt-10 flex justify-center items-center">
+                <Link to={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
             </div>
         </div>
     )
