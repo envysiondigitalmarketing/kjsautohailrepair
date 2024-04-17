@@ -39,7 +39,7 @@ const PasswordModal = ({ showModal, onPasswordSubmit }) => {
           <div className="bg-gray-800 bg-opacity-75 p-4">
             <form className="bg-white p-8 rounded-md shadow-md">
               <h2 className="text-2xl font-bold mb-4">Enter Password</h2>
-              <p className="text-m mb-4">Blog passwords are found <a href='https://kjsautohailrepair.us13.list-manage.com/subscribe?u=efe42263f95f7428958fce1ad&id=574a21e032' style={{color: '#0000EE', textDecoration: 'underline'}}>here</a></p>
+              <p className="text-m mb-4">Blog passwords are found <a href='https://kjsautohailrepair.us13.list-manage.com/subscribe?u=efe42263f95f7428958fce1ad&id=574a21e032' style={{color: '#0000EE', textDecoration: 'underline'}} target="_blank" rel="noopener noreferrer">here</a></p>
               <input
                 type="password"
                 className="w-full px-4 py-2 mb-4 border border-gray-300 rounded-md"

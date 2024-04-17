@@ -40,7 +40,7 @@ const Service = () => {
                     </div> */}
                 </div>
                 <div className="mt-10 flex justify-center items-center">
-                    <Link to={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
+                    <Link to={`/Contact`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
                 </div>
                 {/* Our Hail Damage Service */}
                 <div className="mt-5 relative">
@@ -110,7 +110,7 @@ const Service = () => {
                     </ul>
 
                     <div className="mt-10 flex justify-center items-center">
-                        <Link to={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
+                        <Link to={`/Contact`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
                     </div>
 
                     <p className=" w-8/12 mx-auto text-xl mt-9 md:w-10/12  sm:w-11/12">When you choose KJS Auto Hail Repair for hail damage repair you're choosing a team that cares about your vehicle's well-being and your peace of mind. We're here to restore your vehicle's beauty, functionality, and value, making your experience with us as seamless as possible.
@@ -232,7 +232,7 @@ const Service = () => {
                     </p>
                 </div>
                 <div className="mt-10 flex justify-center items-center">
-                    <Link to={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
+                    <Link to={`/Contact`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
                 </div>
             </div>
         </div >

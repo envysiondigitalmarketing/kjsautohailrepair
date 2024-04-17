@@ -56,7 +56,7 @@ const Hero = () => {
                 Your Trusted Source for Hail Damage Solutions
               </h2>
               <a
-                href={`https://calendar.app.google/JZP5XWqTUVpcZTzG9`}
+                href={`/Contact`}
                 className="w-40 h-12 md:mx-auto flex justify-center items-center mt-5 rounded-lg bg-[#f79f24] font-semibold text-white"
               >
                 Schedule Estimate!

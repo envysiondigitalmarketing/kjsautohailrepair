@@ -44,13 +44,13 @@ const NavBar = () => {
                     </div>
                 </div>
                 <div className="flex gap-x-5 pr-4">
-                    <a href="https://www.facebook.com/kjsautohailrepair" className=" text-xl ">
+                    <a href="https://www.facebook.com/kjsautohailrepair" className=" text-xl " target="_blank" rel="noopener noreferrer">
                         <FaFacebook />
                     </a>
-                    <a href="https://www.instagram.com/kjsautohailrepair" className=" text-xl ">
+                    <a href="https://www.instagram.com/kjsautohailrepair" className=" text-xl " target="_blank" rel="noopener noreferrer">
                         <FaInstagram />
                     </a>
-                    <a href="https://maps.app.goo.gl/V9e4i9mBBJT2ZiPW8" className=" text-xl ">
+                    <a href="https://maps.app.goo.gl/V9e4i9mBBJT2ZiPW8" className=" text-xl " target="_blank" rel="noopener noreferrer">
                         <FaMapMarkedAlt />
                     </a>
                     {/* <span className=" text-xl ">

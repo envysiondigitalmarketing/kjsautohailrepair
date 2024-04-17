@@ -75,16 +75,16 @@ const Footer = () => {
                         <h4 className="font-semibold mb-3 sm:mb-5">Social Links</h4>
                         <div className=" flex items-center gap-x-3">
 
-                            <a href="https://www.facebook.com/kjsautohailrepair" className="text-2xl text-[#1877F2]">
+                            <a href="https://www.facebook.com/kjsautohailrepair" className="text-2xl text-[#1877F2]" target="_blank" rel="noopener noreferrer">
                                 <BsFacebook />
                             </a>
                             {/* <a href="" className="text-2xl text-[#1877F2]">
                                 <FaTwitter />
                             </a> */}
-                            <a href="https://www.instagram.com/kjsautohailrepair" className="text-2xl text-[#1877F2]">
+                            <a href="https://www.instagram.com/kjsautohailrepair" className="text-2xl text-[#1877F2]" target="_blank" rel="noopener noreferrer">
                                 <FaInstagram />
                             </a>
-                            <a href="https://maps.app.goo.gl/V9e4i9mBBJT2ZiPW8" className="text-2xl text-[#1877F2]">
+                            <a href="https://maps.app.goo.gl/V9e4i9mBBJT2ZiPW8" className="text-2xl text-[#1877F2]" target="_blank" rel="noopener noreferrer">
                                 <FaMapMarkedAlt />
                             </a>
                         </div>
