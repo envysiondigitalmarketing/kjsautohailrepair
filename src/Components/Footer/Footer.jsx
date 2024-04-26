@@ -39,8 +39,17 @@ const Footer = () => {
                                 <span className="">
                                     <IoLocationSharp className="text-xl " />
                                 </span>
-                                <span className="font-semibold ">Address</span>
+                                <span className="font-semibold ">Springs: </span>
                                 <span className="">1670 Paonia St Suite 120 Colorado Springs, CO 80915</span>
+
+                            </div>
+                            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+
+                                <span className="">
+                                    <IoLocationSharp className="text-xl " />
+                                </span>
+                                <span className="font-semibold ">Austin: </span>
+                                <span className="">10 Hillvue Rd, Georgetown, TX 78626</span>
 
                             </div>
                             <div className="flex  items-center gap-x-2 w-full flex-wrap">

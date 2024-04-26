@@ -30,10 +30,10 @@ const NavBar = () => {
             <div className={` w-11/12 mx-auto mb-5 flex items-center justify-between gap-x-6 border-b pb-2 flex-wrap gap-y-3 sm:justify-center ${textAndBorder(location.pathname)}`}>
                 <div className="w-max flex gap-x-3 flex-wrap sm:justify-center ">
 
-                    <div className="flex items-center gap-x-2 ">
+                    {/* <div className="flex items-center gap-x-2 ">
                         <span className="text-lg"><IoLocationSharp /></span>
                         <span>1670 Paonia St Suite 120 Colorado Springs, CO 80915</span>
-                    </div>
+                    </div> */}
                     <div className="flex items-center gap-x-2 ">
                         <span className="text-lg"><BsTelephoneFill /></span>
                         <span>(214) 766-6176</span>

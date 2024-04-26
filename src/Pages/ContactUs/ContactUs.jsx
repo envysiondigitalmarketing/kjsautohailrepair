@@ -56,8 +56,17 @@ const ContactUs = () => {
                             <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
                                 <IoLocationSharp className="text-xl sm:text-base text-white" />
                             </span>
-                            <span className="font-semibold text-white">Address</span>
-                            <span className="text-white">1670 Paonia St Suite 120, 80915</span>
+                            <span className="font-semibold text-white">Springs: </span>
+                            <span className="text-white">1670 Paonia St Suite 120, Colorado Springs, CO 80915</span>
+
+                        </div>
+                        <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+
+                            <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                                <IoLocationSharp className="text-xl sm:text-base text-white" />
+                            </span>
+                            <span className="font-semibold text-white">Austin: </span>
+                            <span className="text-white">10 Hillvue Rd, Georgetown, TX 78626</span>
 
                         </div>
                         <div className="flex  items-center gap-x-2 w-full flex-wrap">
