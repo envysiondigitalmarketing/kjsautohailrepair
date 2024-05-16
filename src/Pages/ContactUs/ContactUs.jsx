@@ -75,7 +75,7 @@ const ContactUs = () => {
                                 <BsTelephoneFill className="text-xl sm:text-base text-white" />
                             </span>
                             <span className="font-semibold text-white">Phone Number</span>
-                            <span className="text-white">(214) 766-6176</span>
+                            <a className="text-white" href="tel:214-766-6176">(214) 766-6176</a>
                         </div>
                         <div className="flex  items-center gap-x-2 w-full flex-wrap">
                             <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
@@ -83,7 +83,7 @@ const ContactUs = () => {
                                 <MdEmail className="text-xl sm:text-base text-white" />
                             </span>
                             <span className="font-semibold text-white">Email</span>
-                            <span className="text-white">contact@kjsautohailrepair.com</span>
+                            <a className="text-white" href='mailto:contact@kjsautohailrepair.com'>contact@kjsautohailrepair.com</a>
                         </div>
                         <div className="flex  items-center gap-x-2 w-full flex-wrap">
                             <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
@@ -103,7 +103,7 @@ const ContactUs = () => {
 
                 </div>
                 {/* <div className="mt-10 flex justify-center items-center">
-                    <Link to={`/Contact`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
+                    <Link to={`https://calendar.app.google/Kvq2tb5sNKmrq6su9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Schedule Estimate!</Link>
                 </div> */}
             </div>
         </>

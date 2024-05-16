@@ -36,11 +36,11 @@ const NavBar = () => {
                     </div> */}
                     <div className="flex items-center gap-x-2 ">
                         <span className="text-lg"><BsTelephoneFill /></span>
-                        <span>(214) 766-6176</span>
+                        <a href="tel:214-766-6176">(214) 766-6176</a>
                     </div>
                     <div className="flex items-center gap-x-2 ">
                         <span className="text-lg"><MdEmail /></span>
-                        <span>contact@kjsautohailrepair.com</span>
+                        <a href='mailto:contact@kjsautohailrepair.com'>contact@kjsautohailrepair.com</a>
                     </div>
                 </div>
                 <div className="flex gap-x-5 pr-4">
